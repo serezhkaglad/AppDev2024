@@ -10,7 +10,7 @@ void pascal_triangle(int rows) {
 		}
 		printf("\n");
 	}
-	setFGcolor(WHITE);
+	setFGcolor(WHITE); //or you can use resetColors() function
 }
 
 int binomial(int n, int k) {
